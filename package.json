@@ -1,7 +1,7 @@
 {
-  "name": "discourse-composer-inserted",
+  "name": "discourse-composer-highlighted",
   "version": "0.0.2",
-  "repository": "https://github.com/denvergeeks/discourse-composer-inserted",
+  "repository": "https://github.com/denvergeeks/discourse-composer-highlighted",
   "author": "denvergeeks",
   "license": "MIT"
 }

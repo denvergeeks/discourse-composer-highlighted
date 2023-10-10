@@ -3,6 +3,7 @@
 @if $highlighted_background_color_override !="" {
 
   button.btn.no-text.btn-icon.composer_highlighted_button {
+    color: var(--primary);
     background-color: $highlighted_background_color_override;
     box-shadow: inset 0 0 0 5px var(--secondary);
     border: none;

@@ -1,31 +1,31 @@
-// * inserted background color override * //
+// * highlighted background color override * //
 
-button.btn.no-text.btn-icon.composer_inserted_button:after {
+button.btn.no-text.btn-icon.composer_highlighted_button:after {
   position: absolute;
   content: "__";
   color: var(--primary-medium);
   /* padding-bottom: 15px; */
 }
 
-@if $inserted_background_color_override !="" {
+@if $highlighted_background_color_override !="" {
 
-  button.btn.no-text.btn-icon.composer_insert_button {
-    color: $inserted_background_color_override;
+  button.btn.no-text.btn-icon.composer_highlighted_button {
+    color: $highlighted_background_color_override;
   }
 
   .cooked,
   .d-editor-preview {
     ins {
-      background-color: $inserted_background_color_override;
+      background-color: $highlighted_background_color_override;
       border-radius: 3px;
-      outline: 2px solid $inserted_background_color_override;
+      outline: 2px solid $highlighted_background_color_override;
     }
   }
 }
 
 @else {
 
-  button.btn.no-text.btn-icon.composer_inserted_button {
+  button.btn.no-text.btn-icon.composer_highlighted_button {
     color: var(--success-low) !important;
   }
  
@@ -39,14 +39,14 @@ button.btn.no-text.btn-icon.composer_inserted_button:after {
   }
 }
 
-// * inserted text color override * //
+// * highlighted text color override * //
 
-@if $inserted_text_color_override !="" {
+@if $highlighted_text_color_override !="" {
 
   .cooked,
   .d-editor-preview {
     ins {
-      color: $inserted_text_color_override;
+      color: $highlighted_text_color_override;
     }
   }
 }

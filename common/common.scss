@@ -1,12 +1,5 @@
 // * highlighted background color override * //
 
-button.btn.no-text.btn-icon.composer_highlighted_button:after {
-  position: absolute;
-  content: "__";
-  color: var(--primary-medium);
-  /* padding-bottom: 15px; */
-}
-
 @if $highlighted_background_color_override !="" {
 
   button.btn.no-text.btn-icon.composer_highlighted_button {
@@ -26,15 +19,15 @@ button.btn.no-text.btn-icon.composer_highlighted_button:after {
 @else {
 
   button.btn.no-text.btn-icon.composer_highlighted_button {
-    color: var(--success-low) !important;
+    color: var(--highlight-medium) !important;
   }
  
   .cooked,
   .d-editor-preview {
     ins {
-      background-color: var(--success-low);
+      background-color: var(--highlight-medium);
       border-radius: 3px;
-      outline: 2px solid var(--success-low);
+      outline: 2px solid var(--highlight-medium);
     }
   }
 }

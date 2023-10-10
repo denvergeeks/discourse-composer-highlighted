@@ -22,6 +22,7 @@
 @else {
 
   button.btn.no-text.btn-icon.composer_highlighted_button {
+    color: var(--primary);
     background-color: var(--highlight-medium);
     box-shadow: inset 0 0 0 5px var(--secondary);
     border: none;

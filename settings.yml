@@ -7,10 +7,10 @@ highlighted_background_color_override:
   type: string
   default: ""
   description:
-    en: "The color of the background of the highlighted selections, in hexadecimal, css color name (https://www.w3schools.com/colors/colors_picker.asp) or Discourse color variable. Leave this blank to use the current theme's CSS default for <mark></mark>. Note that changing this will apply the new background color to already existing highlighted text throughout the site."
+    en: "The color of the background of the highlighted selections, in hexadecimal, css color name (<a href="https://www.w3schools.com/colors/colors_picker.asp">here is a color-picker</a>) or Discourse color variable. Leave this blank to use the current theme's CSS default for `<mark></mark>`. Note that changing this will apply the new background color to already existing highlighted text throughout the site."
 
 highlighted_text_color_override:
   type: string
   default: ""
   description:
-    en: "The color of the text in the highlighted selections, in hexadecimal, css color name (https://www.w3schools.com/colors/colors_picker.asp) or Discourse color variable. Leave this blank to use the current theme's CSS default for the (normal text) color. Note that changing this will apply the new text color to already existing highlighted text throughout the site."
+    en: "The color of the text in the highlighted selections, in hexadecimal, css color name (<a href="https://www.w3schools.com/colors/colors_picker.asp">here is a color-picker</a>) or Discourse color variable. Leave this blank to use the current theme's CSS default for the (normal text) color. Note that changing this will apply the new text color to already existing highlighted text throughout the site."

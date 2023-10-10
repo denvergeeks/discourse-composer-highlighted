@@ -24,7 +24,7 @@
 
   button.btn.no-text.btn-icon.composer_highlighted_button {
     color: var(--primary);
-    background-color: var(--highlight-medium);
+    background-color: var(--highlight-bg);
     box-shadow: inset 0 0 0 5px var(--secondary);
     border-radius: 10px;
     border: none;
@@ -33,9 +33,9 @@
   .cooked,
   .d-editor-preview {
     mark {
-      background-color: var(--highlight-medium);
+      background-color: var(--highlight-bg);
       border-radius: 3px;
-      outline: 2px solid var(--highlight-medium);
+      outline: 2px solid var(--highlight-bg);
     }
   }
 }

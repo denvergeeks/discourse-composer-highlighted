@@ -3,14 +3,14 @@ svg_icons:
   type: "list"
   list_type: "compact"
 
-inserted_background_color_override:
+highlighted_background_color_override:
   type: string
   default: ""
   description:
-    en: "The color of the background of the inserted selections, in hexadecimal, css color name (https://www.w3schools.com/colors/colors_picker.asp) or Discourse color variable. Leave this blank to use the current theme's CSS default for <ins></ins>. Note that changing this will apply the new background color to already existing inserts throughout the site."
+    en: "The color of the background of the highlighted selections, in hexadecimal, css color name (https://www.w3schools.com/colors/colors_picker.asp) or Discourse color variable. Leave this blank to use the current theme's CSS default for <mark></mark>. Note that changing this will apply the new background color to already existing highlighted text throughout the site."
 
-inserted_text_color_override:
+highlighted_text_color_override:
   type: string
   default: ""
   description:
-    en: "The color of the text in the inserted selections, in hexadecimal, css color name (https://www.w3schools.com/colors/colors_picker.asp) or Discourse color variable. Leave this blank to use the current theme's CSS default for the (normal text) color. Note that changing this will apply the new text color to already existing inserts throughout the site."
+    en: "The color of the text in the highlighted selections, in hexadecimal, css color name (https://www.w3schools.com/colors/colors_picker.asp) or Discourse color variable. Leave this blank to use the current theme's CSS default for the (normal text) color. Note that changing this will apply the new text color to already existing highlighted text throughout the site."

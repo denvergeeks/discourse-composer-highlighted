@@ -3,7 +3,9 @@
 @if $highlighted_background_color_override !="" {
 
   button.btn.no-text.btn-icon.composer_highlighted_button {
-    color: $highlighted_background_color_override;
+    background-color: $highlighted_background_color_override;
+    box-shadow: inset 0 0 0 5px var(--secondary);
+    border: none;
   }
 
   .cooked,
@@ -19,7 +21,9 @@
 @else {
 
   button.btn.no-text.btn-icon.composer_highlighted_button {
-    color: var(--highlight-medium) !important;
+    background-color: var(--highlight-medium);
+    box-shadow: inset 0 0 0 5px var(--secondary);
+    border: none;
   }
  
   .cooked,

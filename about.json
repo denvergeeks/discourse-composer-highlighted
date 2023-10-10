@@ -1,9 +1,9 @@
 {
-  "name": "Composer Inserted Button",
+  "name": "Composer Highlighted Button",
   "component": true,
   "authors": "@denvergeeks",
-  "about_url": "https://github.com/denvergeeks/discourse-composer-insert",
-  "about": "Adds an inserted (<ins>this</ins>) button to the composer",
+  "about_url": "https://github.com/denvergeeks/discourse-composer-highlighted",
+  "about": "Adds an inserted (<mark>this</mark>) button to the composer",
   "version": 0.1,
   "assets": {
    "icons-sprite": "/assets/highlighter.svg"

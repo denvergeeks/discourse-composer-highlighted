@@ -34,7 +34,7 @@ export default apiInitializer("0.11.1", (api) => {
       id: "composer_highlighted_button",
       group: "extras",
       icon: "highlighter",
-      shortcut: "N",
+      shortcut: "H",
       preventFocus: true,
       trimLeading: true,
       title: "highlighted_button_title",
